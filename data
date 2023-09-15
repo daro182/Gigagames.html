@@ -3,3 +3,5 @@ include files.cs
 function pirulo () {
     cout >> data
 }
+
+var:string piruloResult = pirulo ()
