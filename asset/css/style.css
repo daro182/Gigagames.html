@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+}
+header {
+    height: 64px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+main {
+    height: calc(100%);
+    background-color: black;
+    
+}
+.background-image {
+    background-image: url(../../Descargas\ a\ usar/fondomain.jpg); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del elemento */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    background-position: center center; /* Centra la imagen */
+}
+footer{
+    height: 50px;
+    background-color: black;
+    color: blueviolet;
+}
+h1 {
+    text-decoration: underline;
+    padding-top: 75px;
+    text-align: center;
+}
+.classic {
+    background-color: rgb(208, 247, 247);
+    color: brown;
+    }
+
+.night {
+    color: #857cfa;
+    background-color: black;
+}
